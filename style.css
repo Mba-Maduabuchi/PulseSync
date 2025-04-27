@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding:  20px 50px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  nav a::before {
+    margin-right: 6px;
+    font-family: "Bootstrap Icons";
+  }
+  .connect-button {
+    background-color: #6c47ff;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .hero {
+    background: linear-gradient(to right, #360442, #6c47ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero img {
+    max-width: 100%;
+    border-radius: 5pxpx;
+    margin: 5px;
+    align-items: center;
+    height: 250px;
+    width: 550px;
+   
+
+  }
+  .metrics, .integrations, .testimonials, .support {
+    padding: 30px 20px;
+  }
+  .metrics .card, .integrations .card, .testimonial-card, .support-card {
+    background-color: rgba(196, 70, 250, 0.116);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+  }
+  .testimonial-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon-text i {
+    font-size: 1.2em;
+    color: #6c47ff;
+  }
+  .logos{
+    text-decoration: solid;
+  }
+  footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
